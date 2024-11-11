@@ -1,0 +1,2 @@
+class LoginInformation < ApplicationRecord
+end
