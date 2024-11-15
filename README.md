@@ -10,7 +10,7 @@ Things you may want to cover:
 ---
 # Devcontainer instructions
 
-## if yarn and npm not available, and or the assets aren't loading run these commands in order in the project terminal:
+## before starting the server check and see if yarn and npm is not available, and or the assets aren't loading - run these commands in order in the project terminal:
 ```shell
 $ sudo apt update
 $ sudo apt install nodejs npm 
