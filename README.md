@@ -5,31 +5,25 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version 3.3
 
-* System dependencies
+---
+# Devcontainer instructions
 
-* Configuration
+## if yarn and npm not available, and or the assets aren't loading run these commands in order in the project terminal:
+```shell
+$ sudo apt update
+$ sudo apt install nodejs npm 
 
-* Database creation
+$ sudo npm install -g yarn
 
-* Database initialization
+$ rails assets:precompile
+```
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* if yarn and npm not available do and the assets arent loading do:
-    sudo apt update
-    sudo apt install nodejs npm 
-
-    sudo npm install -g yarn
-
-    rails assets:precompile
-
-* Now, migrate and seed your database before starting the server:
-    rails db:migrate
-    rails db:seed
-    rails server
+### Now, afterwards migrate and seed your database before starting the server:
+```shell
+$ rails db:migrate
+$ rails db:seed
+$ rails server
+```
