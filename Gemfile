@@ -28,7 +28,7 @@ gem "jbuilder"
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem "tzinfo-data", platforms: %i[ windows jruby ]
 
-gem "activeadmin", "4.0.0.beta13"
+gem "activeadmin", "4.0.0.beta15"
 gem "sassc"
 gem "cssbundling-rails"
 
